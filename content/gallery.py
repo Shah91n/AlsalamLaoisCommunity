@@ -16,4 +16,4 @@ def display_image_gallery(image_folder="images"):
 
             # Display image in the corresponding column without caption
             with cols[index % 3]:  
-                st.image(image, use_container_width=True)
+                st.image(image, width='stretch')

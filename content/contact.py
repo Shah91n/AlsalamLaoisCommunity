@@ -88,8 +88,8 @@ def display_contact_form():
 		            Co. Laois.
 		                     
 		               ### Contact
-		               📧 sara.rasool@islamireland.ie  
-		               📞 (057) 866 5253
+		               📧 imamahmedhalawa@gmail.com 
+		               📞 (087) 348 7777
 		               """)
 	# Google Maps with clickable link
 	st.subheader("Our Location")

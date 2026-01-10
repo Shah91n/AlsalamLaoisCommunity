@@ -6,30 +6,30 @@ def display_activities():
 
     # Store activities data in lists
     activities = [
-        "Boys Halaqa",
-        "Quran Halaqa (Men)",
-        "Arabic Class (4-5 y)",
-        "Girls Halaqa (16+ y)",
-        "Arabic Class (7-9 y)",
-        "Sisters Halaqa"
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A"
     ]
 
     days = [
-        "Saturday & Sunday",
-        "Saturday & Sunday",
-        "Tuesday & Friday",
-        "Saturday",
-        "Wednesday & Friday",
-        "Thursday"
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A"
     ]
 
     times = [
-        "2:00pm-5:00pm",
-        "5:30pm-9:00pm",
-        "3:30pm-5:00pm",
-        "6:00pm-8:00pm",
-        "3:30pm-5:00pm",
-        "10:00am-12:00pm"
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A"
     ]
 
     # Create DataFrame
@@ -43,7 +43,7 @@ def display_activities():
     st.dataframe(
         df,
         hide_index=True,
-        use_container_width=True,  # Make table use full container width
+        width='stretch',  # Make table use full container width
         column_config={
             "Activity": st.column_config.TextColumn(
                 "Activity",
