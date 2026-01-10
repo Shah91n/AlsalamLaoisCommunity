@@ -206,5 +206,46 @@ def load_custom_css():
             font-weight: 500;
         }
                 
+        /* ---------------------------------------------------------------------
+           7. MOBILE RESPONSIVENESS (Phone View)
+        --------------------------------------------------------------------- */
+        @media only screen and (max-width: 600px) {
+            /* 1. Shrink the main title so it fits on one screen */
+            h1 {
+                font-size: 1.6rem !important;
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+            
+            /* 2. Make the Prayer Cards smaller and more compact vertically */
+            .prayer-card {
+                padding: 0.8rem !important;
+                margin-bottom: 0.5rem !important;
+            }
+            
+            .prayer-time {
+                font-size: 1.4rem !important;
+            }
+            
+            .prayer-name {
+                font-size: 0.9rem !important;
+            }
+
+            /* 3. Adjust the Jummah Card to fit better */
+            div[style*="border: 1px solid var(--secondary)"] {
+                padding: 15px !important;
+            }
+            
+            div[style*="font-size: 2.5rem"] {
+                font-size: 1.8rem !important; /* Smaller Jummah Time */
+            }
+            
+            /* 4. Center align standard text for better mobile reading */
+            p {
+                text-align: center;
+                font-size: 0.95rem;
+            }
+        }
+                
         </style>
     """, unsafe_allow_html=True)

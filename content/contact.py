@@ -93,7 +93,7 @@ def display_contact_form():
 		               """)
 	# Google Maps with clickable link
 	st.subheader("Our Location")
-	st.markdown("[📍 View on Google Maps](https://www.google.com/maps/place/Rahman+House,+Dublin+Rd,+Kilminchy,+Portlaoise,+Co.+Laois/@53.0393873,-7.2750827,17z/data=!3m1!4b1!4m6!3m5!1s0x485d0c5354286f5b:0x7d9886ebfc16235d!8m2!3d53.0393873!4f-7.2725078!16s%2Fg%2F119v720yw?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D)")
+	st.markdown("[📍 Go to Google Maps](https://www.google.com/maps/place/Rahman+House,+Dublin+Rd,+Kilminchy,+Portlaoise,+Co.+Laois/@53.0393873,-7.2750827,17z/data=!3m1!4b1!4m6!3m5!1s0x485d0c5354286f5b:0x7d9886ebfc16235d!8m2!3d53.0393873!4f-7.2725078!16s%2Fg%2F119v720yw?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D)")
 	
 	st.components.v1.html("""
 	                      	<iframe src="https://www.google.com/maps/embed?pb=!4v1738509730970!6m8!1m7!1s2wZZMPhaXRxPwyCKbgTO_w!2m2!1d53.0396244465057!2d-7.272594422651506!3f150.80282518629292!4f-15.853869475489631!5f0.9828750278062419" 
