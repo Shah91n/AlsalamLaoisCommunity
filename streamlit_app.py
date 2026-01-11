@@ -11,7 +11,7 @@ from utils.style import load_custom_css
 # Streamlit Page Config
 # --------------------------------------------------------------------------
 st.set_page_config(
-	page_title="Laois Muslim Community",
+	page_title="Al-Salam Laois Muslim Community",
 	layout="wide",
 	initial_sidebar_state="expanded",
 	page_icon="🕌",
@@ -23,7 +23,7 @@ load_custom_css()
 # get prayer times
 prayer_times = fetch_prayer_times()
 
-st.markdown("<h1 style='text-align: center;'>Co Laois Muslim Community Foundation</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>Al-Salam Laois Muslim Community Foundation</h1>", unsafe_allow_html=True)
 
 # Path to your background image
 main_image_path = os.path.join(os.getcwd(), 'images', 'main_image.png')
@@ -102,13 +102,15 @@ if col4.button('Contact', width='stretch', type='primary' if st.session_state.ac
 
 # Content display based on active tab
 if st.session_state.active_tab == 'school':
-    st.header("School Information")
+    st.header("Quran School Information - Coming Soon!")
 
 elif st.session_state.active_tab == 'activities':
-	display_activities()
+    st.header("Activities - Coming Soon!")
+    display_activities()
 
 elif st.session_state.active_tab == 'gallery':
-	display_image_gallery()
+    st.header("More - Coming Soon!")
+    display_image_gallery()
 
 elif st.session_state.active_tab == 'contact':
     display_contact_form()
@@ -119,7 +121,7 @@ elif st.session_state.active_tab == 'contact':
 with st.sidebar:
     # 1. HEADER SECTION
     st.markdown("""
-        <div class="sidebar-title">Portlaoise Masjid</div>
+        <div class="sidebar-title">Al-Salam Masjid</div>
         <div class="sidebar-subtitle">📍 Portlaoise, Ireland</div>
     """, unsafe_allow_html=True)
 

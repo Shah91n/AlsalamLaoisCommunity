@@ -83,7 +83,7 @@ def display_contact_form():
 		# Contact Information
 		st.markdown("""
 		               ### Location
-		               Masjid Ar-Rahman (Rahman house),
+		               Al-Salam Masjid (Rahman house),
 		            Dublin Rd, Kilminchy, Portlaoise, 
 		            Co. Laois.
 		                     
