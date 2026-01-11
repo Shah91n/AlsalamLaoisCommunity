@@ -23,7 +23,7 @@ load_custom_css()
 # get prayer times
 prayer_times = fetch_prayer_times()
 
-st.markdown("<h1 style='text-align: center;'>Co Laoise Muslim Community Foundation</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>Co Laois Muslim Community Foundation</h1>", unsafe_allow_html=True)
 
 # Path to your background image
 main_image_path = os.path.join(os.getcwd(), 'images', 'main_image.png')
@@ -76,7 +76,7 @@ st.markdown("""
             1:30 PM
         </div>
         <div style="color: var(--text-light); font-size: 1rem; margin-top: 5px; display: flex; align-items: center; justify-content: center; gap: 5px;">
-            <span style="font-size: 1.2rem;">📍</span> St. Mary's Hall, Portlaoise
+            <span style="font-size: 1.2rem;">📍</span> <a href="https://maps.app.goo.gl/odSmVQrt5mombGB17" target="_blank" style="color: var(--text-light); text-decoration: none;">St. Mary's Hall, Portlaoise</a>
         </div>
     </div>
 """, unsafe_allow_html=True)
